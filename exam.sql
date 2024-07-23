@@ -72,7 +72,7 @@ SELECT a.*,e.correct FROM answer AS a LEFT OUTER JOIN exam AS e ON a.exam_id = e
 -- 問題一覧と正解/不正解を返す
 SELECT e.*,a.answer,a.is_correct FROM answer AS a LEFT OUTER JOIN exam AS e ON a.exam_id = e.id WHERE a.no = 1 ORDER BY e.id ASC;
 
--- 
+-- 解答一覧と正解確認
 -- 
 SELECT
     *,
