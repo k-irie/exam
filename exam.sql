@@ -85,7 +85,7 @@ ORDER BY
     exam_id ASC;
 
 -- 答え合わせ
--- 
-UPDATE answer a SET is_correct = ((SELECT correct FROM exam e WHERE e.id = a.exam_id ) = a.answer) WHERE no = 1;
+--  answerがNULLの時に更新対象から外す
+UPDATE answer a SET is_correct = ((SELECT correct FROM exam e WHERE e.id = a.exam_id ) = a.answer) WHERE no = 1 AND answer IS NOT NULL;
 
 
