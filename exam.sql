@@ -34,7 +34,7 @@ CREATE TABLE answer (
     id INT PRIMARY KEY AUTO_INCREMENT COMMENT '主キー',
     no INT NOT NULL COMMENT '回数',
     exam_id INT NOT NULL COMMENT '質問テーブルへの外部キー',
-    answer TINYINT NOT NULL COMMENT '解答',
+    answer TINYINT NULL DEFAULT NULL COMMENT '解答(未回答時NULL)',
     is_correct TINYINT NOT NULL DEFAULT 0 COMMENT '1:正解/0:不正解'
 );
 -- no + exam_id の組み合わせをユニーク制約
@@ -49,7 +49,7 @@ INSERT INTO answer (no,exam_id,answer) VALUES
 (1,4,2),
 (1,5,2),
 (1,6,2),
-(1,7,2);
+(1,7,NULL);
 
 -- ここまでデータベース構築とサンプルデータ登録
 
