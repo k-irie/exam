@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="sN0u5kkZCkya0ir_H5qH" name="画面遷移図">
-        <mxGraphModel dx="2475" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2043" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -69,7 +69,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="JGRsq6ZDVuanarTj7v35-20" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fontFamily=Lucida Console;fontSize=22;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="570" width="1060" height="530" as="geometry"/>
+                    <mxGeometry x="40" y="520" width="870" height="610" as="geometry"/>
                 </mxCell>
                 <mxCell id="JGRsq6ZDVuanarTj7v35-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; text-align: center;&quot;&gt;4択問題&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;fontFamily=Lucida Console;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
                     <mxGeometry x="60" y="12" width="110" height="26" as="geometry"/>
@@ -96,23 +96,20 @@
                 <mxCell id="JGRsq6ZDVuanarTj7v35-27" value="●&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Cascadia Code&amp;quot;, Consolas, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: bold;&quot;&gt;玉子には殻が赤いものと白いものがありますが、両者の違いはなんでしょうか？&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontFamily=Lucida Console;fontColor=#000000;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
                     <mxGeometry x="32.5" y="180" width="590" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="JGRsq6ZDVuanarTj7v35-28" value="1．✓栄養価&#10;2．　味&#10;3．　賞味期限&#10;4．✓何も変わらない" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontFamily=Lucida Console;fontColor=#221c1c;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
-                    <mxGeometry x="60" y="220" width="230" height="120" as="geometry"/>
+                <mxCell id="JGRsq6ZDVuanarTj7v35-28" value="✘ 栄養価" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontFamily=Lucida Console;fontColor=#221c1c;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
+                    <mxGeometry x="60" y="240" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="JGRsq6ZDVuanarTj7v35-29" value="次へ" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=default;mainText=;buttonStyle=round;fontSize=22;fontStyle=1;fillColor=#ffffff;whiteSpace=wrap;fontFamily=Lucida Console;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
-                    <mxGeometry x="555" y="460" width="150" height="45" as="geometry"/>
+                <mxCell id="JGRsq6ZDVuanarTj7v35-34" value="玉子には殻の色は白色であれば白色レグホンのような白玉鶏、&#10;赤色であればロードアイランドレッドなどの赤玉鶏のように鶏の種類で決まるため、&#10;栄養価、味、賞味期限については基本的に何も変わりません。&#10;ただし、鶏を育てる農場のこだわりによっては違いが生まれるため、&#10;ぜひいろいろと食べ比べてみてはいかがでしょうか。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Lucida Console;fontColor=#221c1c;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
+                    <mxGeometry x="60" y="335" width="780" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="JGRsq6ZDVuanarTj7v35-32" value="" style="endArrow=none;html=1;fontFamily=Lucida Console;fontSize=22;fontColor=#221c1c;fillColor=#e51400;strokeColor=#B20000;strokeWidth=4;" parent="JGRsq6ZDVuanarTj7v35-20" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="90" y="241" as="sourcePoint"/>
-                        <mxPoint x="210" y="241" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="3" value="正解：何も変わらない" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;fontFamily=Lucida Console;fontColor=#221c1c;" vertex="1" parent="JGRsq6ZDVuanarTj7v35-20">
+                    <mxGeometry x="60" y="285" width="240" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="JGRsq6ZDVuanarTj7v35-34" value="何も変わらない&#10;&#10;玉子には殻の色は白色であれば白色レグホンのような白玉鶏、&#10;赤色であればロードアイランドレッドなどの赤玉鶏のように鶏の種類で決まるため、&#10;栄養価、味、賞味期限については基本的に何も変わりません。&#10;ただし、鶏を育てる農場のこだわりによっては違いが生まれるため、&#10;ぜひいろいろと食べ比べてみてはいかがでしょうか。" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Lucida Console;fontColor=#221c1c;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
-                    <mxGeometry x="290" y="230" width="780" height="180" as="geometry"/>
+                <mxCell id="4" value="前へ" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=default;mainText=;buttonStyle=round;fontSize=22;fontStyle=1;fillColor=#ffffff;whiteSpace=wrap;fontFamily=Lucida Console;" vertex="1" parent="JGRsq6ZDVuanarTj7v35-20">
+                    <mxGeometry x="270" y="540" width="150" height="45" as="geometry"/>
                 </mxCell>
-                <mxCell id="JGRsq6ZDVuanarTj7v35-35" value="前へ" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=default;mainText=;buttonStyle=round;fontSize=22;fontStyle=1;fillColor=#ffffff;whiteSpace=wrap;fontFamily=Lucida Console;" parent="JGRsq6ZDVuanarTj7v35-20" vertex="1">
-                    <mxGeometry x="390" y="460" width="150" height="45" as="geometry"/>
+                <mxCell id="5" value="次へ" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=default;mainText=;buttonStyle=round;fontSize=22;fontStyle=1;fillColor=#ffffff;whiteSpace=wrap;fontFamily=Lucida Console;" vertex="1" parent="JGRsq6ZDVuanarTj7v35-20">
+                    <mxGeometry x="435" y="540" width="150" height="45" as="geometry"/>
                 </mxCell>
                 <mxCell id="JGRsq6ZDVuanarTj7v35-30" style="edgeStyle=none;html=1;entryX=0.19;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Lucida Console;fontSize=22;fontColor=#000000;" parent="1" source="4D5Mt6U5kFK5-ibJkH8w-12" target="JGRsq6ZDVuanarTj7v35-20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
